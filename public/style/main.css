@@ -1,0 +1,43 @@
+
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    padding: 0;
+    background-color: #1c2239;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.wrap{
+    background-color: #404f65;
+    border: 1px solid;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.prices{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    gap: 40px; /* space between items */
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 20px;
+}
+
+p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p strong{
+    margin-bottom: 8px;
+}
